@@ -2,12 +2,7 @@ body{
     background-color: black;
 }
 
-#bigHeading{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(75, 66, 66);
-    opacity: 45%;
-}
+
 
 h1{
     padding-left: 200px;
@@ -16,26 +11,23 @@ h1{
 }
 
 p{
-    color: white;
-}
-
-.identification{
-    background-color: grey;
-    
-}
-.image{
+    color: rgb(0, 42, 255);
     display: flex;
     justify-content: center;
-}
-
-.identificationText{
-display: flex;
-flex-direction: column;
 }
 
 #big_div{
     display: flex;
     justify-content: center;
-    align-content: space-between;
+    align-content:space-around;
+}
+
+.infoContain{
+    display:inline;
+    flex-direction: column;
+}
+
+.identification{
+    background-image: url("images/id1.jpg");
 }
 

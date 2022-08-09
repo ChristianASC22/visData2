@@ -12,7 +12,8 @@ fetch('https://randomuser.me/api/?results=50')
 
             //image
             let image=document.createElement("img")
-            image.src=data.results[i].picture.medium
+            image.src=data.results[i].picture.large
+            image.style.width="200px"
             image.className="image"
 
             let newDiv1= document.createElement("div")
@@ -56,5 +57,5 @@ fetch('https://randomuser.me/api/?results=50')
     let firstNameBtn=document.getElementById("firstNameBtn")
     firstNameBtn.onclick=function(event){
         event.preventDefault();
-        data.results[i].gender=female;
+        data.results[i].gender.female;
     }
