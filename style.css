@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+}
+
+#bigHeading{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(75, 66, 66);
+    opacity: 45%;
+}
+
+h1{
+    padding-left: 200px;
+    padding-right: 200px;
+    color: red;
+}
+
+p{
+    color: white;
+}
+
+.identification{
+    background-color: grey;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.identificationText{
+display: flex;
+flex-direction: column;
+}
+
+#big_div{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
